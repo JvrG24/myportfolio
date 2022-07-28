@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#all{
+    padding-top: 3.5rem;
+}
+
+#navbar{
+    background-color: rgb(8, 8, 118);
+    max-width: 100%;
+    height: auto;
+    padding: 25px;
+    align-items: center;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+
+}
+
+.links{
+    color: white;
+    float: right;
+    padding-right: 3rem;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.links:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+#welcome-section{
+    background-color: black;
+    max-width: 100%;
+    padding: 349px;
+    text-align: center;
+}
+
+#titulo1{
+    color: white;
+    font-size: 50px;
+}
+
+@media(max-width:1056px){
+    #titulo1{
+        font-size: 40px;
+    }
+}
+
+#p1{
+    color: rgb(8, 8, 118);
+    font-size: 40px;
+}
+
+
+
+#projects{
+    background-color: rgb(8, 131, 123);
+    max-width: 100%;
+    padding: 50px;
+}
+
+#titulo2{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    align-items: center;
+    border: 8px dotted white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 100%;
+    height: auto;
+}
+
+section article{
+    transition: box-shadow 0.2s ease;
+    background-color:rgb(255, 251, 237);
+    margin: 1rem 0;
+    border-radius:2rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 1);
+}
+
+#titulo3{
+    text-align: center;
+    font-size: 30px;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+
+.link-article{
+    text-decoration: none;
+    color: white;
+}
+
+#imagen{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+
+
+#contact{
+    background-color: white;
+    padding: 190px;
+    text-align: center;
+}
+
+.profile-link{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 70px;
+}
+
+.logos{
+    width: 40px;
+}
+
+#titulofinal{
+    font-size: 70px;
+}
+
+#pfinal{
+    font-size: 25px;
+}
+
+.linksfinal{
+    text-decoration: none;
+}
